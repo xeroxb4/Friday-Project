@@ -23,32 +23,34 @@
     padding-top: 2px;
     color: whitesmoke;
     padding-left: 5rem;
-
+    
 }
 
-label.logo {
-    color: aqua;
-
+.backgrnd h3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    color: whitesmoke;
+    justify-content: center;
 }
+
 
 .bloglist {
     display: flex;
     float: right;
-    padding-bottom: rem;
-
 }
-
-
 
 
 .bloglist a {
     color: #A30D3F;
-
+    font-size: 16px;
     display: flex;
     display: inline-block;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifheadertopbutt;
-    margin-right: 22px;
+    margin-right: 1px;
     justify-content: space-between;
 }
 
@@ -77,6 +79,7 @@ ul {
     padding-top: 2rem;
     margin-left: 18rem;
     margin-right: 2rem;
+    
 }
 
 ul li {
@@ -84,12 +87,12 @@ ul li {
     color: #A30D3F;
     text-align: center;
     padding: 14px 16px;
+    
 }
 
 ul li a {
     color: rgb(245, 242, 242);
     display: flex;
-    font-size: 20px;
     font-weight: bold;
 }
 
@@ -133,33 +136,33 @@ ul li a {
 }
 
 .registration-form h1{
-    font-size: 25px;
+    font-size: 20px;
     text-align: ;
     text-transform: uppercase;
     
     color: white;
-    padding-top: 9rem;
+    padding-top: 15rem;
 
 }
 
 .registration-form p{
-    font-size: 20px;
-    margin: 15px 0;
+    font-size: 15px;
+    margin: 10px 0;
     color: white;
     
 }
 
 .registration-form input{
-    font-size: 14px;
-    padding: 10px 12px;
+    font-size: 12px;
+    padding: 7px 8px;
     width: 80%;
-    border: 0;
+    border:lawngreen ;
     border-radius: 10px;
     
 }
 
 .registration-form button{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     margin: 20px 0;
     padding: 5px 3px;
