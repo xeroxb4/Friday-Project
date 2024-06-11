@@ -7,16 +7,17 @@
     overflow-x: hidden;
 }
 
-.backgrnd{
+.backgrnd {
     background-image: url(../img/banner.png);
     padding: 3rem;
     background-repeat: no-repeat;
     padding-top: 1rem;
     background-size: cover;
     padding-bottom: 1rem;
+
 }
 
-.backgrnd h2{
+.backgrnd h2 {
     display: flex;
     letter-spacing: 5px;
     padding-top: 2px;
@@ -25,30 +26,150 @@
 
 }
 
-label.logo{
+label.logo {
     color: aqua;
-    
+
 }
 
-.bloglist{
+.bloglist {
     display: flex;
     float: right;
     padding-bottom: rem;
 
 }
 
-.headertopbutt{
-    padding-top: 12px;
-}
+
 
 
 .bloglist a {
-    color: rgb(248, 248, 248);
-    
+    color: #A30D3F;
+
     display: flex;
     display: inline-block;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifheadertopbutt;
     margin-right: 22px;
     justify-content: space-between;
+}
+
+.sec1 {
+    background-image: url(../img/dark-black-panther-7680x4320.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.sec1logo {
+    padding: 20px 10px;
+}
+
+nav {
+    display: flex;
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 2rem;
+    margin-left: 18rem;
+    margin-right: 2rem;
+}
+
+ul li {
+    display: block;
+    color: #A30D3F;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+ul li a {
+    color: rgb(245, 242, 242);
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search-bar {
+    padding-top: 2rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 5px;
+    text-align: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #97ee4f;
+    color: black;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #aaa;
+}
+
+.registration-form{
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    
+}
+
+.registration-form h1{
+    font-size: 25px;
+    text-align: ;
+    text-transform: uppercase;
+    
+    color: white;
+    padding-top: 9rem;
+
+}
+
+.registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+    color: white;
+    
+}
+
+.registration-form input{
+    font-size: 14px;
+    padding: 10px 12px;
+    width: 80%;
+    border: 0;
+    border-radius: 10px;
+    
+}
+
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 5px 3px;
+    width: 30%;
+    border: none;
+    border-radius: 15px;
+    background-color: #da4b7b;
+    
+}
+
+.registration-form button:hover{
+    color: rgb(240, 240, 240);
 }
