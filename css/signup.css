@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.signup-form{
+    float: right;
+    width: 30%;
+}
+
+.registration-form h1{
+    font-size: 20px;
+ 
+    text-transform: uppercase;
+    
+    color: white;
+    padding-top: 15rem;
+
+}
+
+.registration-form p{
+    font-size: 15px;
+    margin: 10px 0;
+    color: white;
+    
+}
+
+.registration-form input{
+    font-size: 12px;
+    padding: 7px 8px;
+    width: 80%;
+    border:lawngreen ;
+    border-radius: 10px;
+    
+}
+
+.registration-form button{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 5px 3px;
+    width: 30%;
+    border: none;
+    border-radius: 15px;
+    background-color: #da4b7b;
+    
+}
