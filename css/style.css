@@ -187,7 +187,7 @@ ul li a {
 }
 
 .sec1img{
-    margin-top: -3.5rem;
+    margin-top: -15rem;
     margin-left: 20px;
     border-radius: 8px;
 }
@@ -195,21 +195,32 @@ ul li a {
 .sec1txt{
     line-height: 25px;
     padding-top: 3rem;
+    
 }
 
 .sec1txt h1{
    align-items: flex-start;
-   padding-top: 1rem;
+   padding-top: -9rem;
    padding-bottom: 2rem;
+   letter-spacing: 6px;
    margin-left: 22px;
    margin-bottom: 1rem;
    color: rgb(214, 45, 45)
-   
 }
 
 
-.sec1txt p{
-    display: ;
-   float: left;
-    
+
+
+.sec1txt h3{
+    margin-left: 30%;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    width: 500px;
 }
