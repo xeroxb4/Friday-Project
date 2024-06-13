@@ -8,7 +8,7 @@
 }
 
 .backgrnd {
-    background-image: url(../img/banner.png);
+    background-color: #1A2130;
     padding: 3rem;
     background-repeat: no-repeat;
     padding-top: 1rem;
@@ -16,19 +16,6 @@
     padding-bottom: 1rem;
 
 }
-
-#hdh2 {
-    color: rgb(228, 12, 12);
-    letter-spacing: 10px;
-    margin-left: 12rem;
-}
-
-#hdh3 {
-    color: rgb(48, 166, 182);
-    letter-spacing: 10px;
-    margin-top: 5px;
-}
-
 
 .bloglist {
     display: flex;
@@ -53,7 +40,6 @@
     border-radius: 15px;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 5px;
     padding-bottom: 5px;
     background-color: #A30D3F;
     border: none;
@@ -153,9 +139,9 @@ ul li a {
 
 .sec1img {
     margin-top: -16rem;
-    margin-left: 20px;
+    margin-left: 90px;
     border-radius: 8px;
-
+    
 }
 
 .sec1txt {
@@ -168,7 +154,7 @@ ul li a {
 .sec1txt h1 a {
     align-items: flex-start;
     padding-top: 1rem;
-    margin-left: 22px;
+    margin-left: 100px;
     margin-bottom: 1rem;
     color: rgb(223, 9, 9);
 
@@ -180,7 +166,6 @@ ul li a {
     font-size: 13px;
     font-family: verdana;
     display: flex;
-    justify-content: ;
     align-items: center;
     text-align: left;
     letter-spacing: 2px;
@@ -209,13 +194,36 @@ ul li a {
     color: white;
 }
 
-.sec1Geo {
-    float: right;
-    margin-right: 2%;
-    margin-top: 50px;
-    
-}
+.background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .sec2-container{
+    background-color: #1A2130;
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    padding: 3rem 3rem;
+  }
+  
+  .video video {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
 
-.sec1Geo h2 a{
-    color: red;
-}
+  
+  
+ 
