@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@
     padding-top: 1rem;
     background-size: cover;
     padding-bottom: 1rem;
+   
 
 }
 
@@ -127,16 +129,6 @@ ul li a {
     background-color: #2D9596;
 }
 
-.registration-form {
-    width: 80%;
-    margin: 0 auto;
-
-}
-
-.registration-form button:hover {
-    color: rgb(240, 240, 240);
-}
-
 .sec1img {
     margin-top: -16rem;
     margin-left: 90px;
@@ -194,11 +186,11 @@ ul li a {
     color: white;
 }
 
+
 .background {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('your-background-image.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -222,8 +214,298 @@ ul li a {
     height: 100%;
     object-fit: cover;
   }
-  
-
-  
-  
  
+  .sec3-container{
+    background-color: #1E1E1E;
+    padding-left: rem;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.img-container{
+    display: flex;
+    padding-top: 3.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    transition: 2s;
+    
+}
+
+
+.slider_div{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+  
+img{
+    position: relative;
+    transition: 0.1s;
+    border-radius: 20px;
+}
+
+.button{
+    position: absolute ;
+    width: 300px;
+    transition: 0.2s;
+    height: 376px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-bottom: 2rem;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+#slider1:target ~ .img-container #img1
+#slider1:target ~ .img-container #button1{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider2:target ~ .img-container #img2
+#slider2:target ~ .img-container #button2{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider3:target ~ .img-container #img3
+#slider3:target ~ .img-container #button3{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider4:target ~ .img-container #img4
+#slider4:target ~ .img-container #button4{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider5:target ~ .img-container #img5
+#slider5:target ~ .img-container #button5{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+
+#slider6:target ~ .img-container #img6
+#slider6:target ~ .img-container #button6{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider7:target ~ .img-container #img7
+#slider7:target ~ .img-container #button7{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider1:target ~ .img-container{
+    left: 60%;
+}
+
+#slider2:target ~ .img-container{
+    left: 40%;
+}
+
+#slider3:target ~ .img-container{
+    left: 20%;
+}
+
+#slider4:target ~ .img-container{
+    left: 0%;
+}
+
+#slider5:target ~ .img-container{
+    left: -20%;
+}
+
+#slider6:target ~ .img-container{
+    left: -40%;
+}
+
+#slider7:target ~ .img-container{
+    left: -60%;
+}
+
+.sec4-container{
+    background-color: #0a0314;
+    padding: 3rem 5rem;
+    
+}
+
+.sec4A-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+    padding-bottom: 8rem;
+}
+
+.sec4B-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.sec5-slidecontainer{
+    background-color: #1E1E1E;
+    padding-left: rem;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.sec5img-containerA{
+    display: flex;
+    padding-top: 3.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    transition: 2s;
+    padding-bottom: 4rem;
+}
+
+.sec5slider_div{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+.sec5-slidecontainer img{
+    position: relative;
+    transition: 0.1s;
+    border-radius: 20px;
+}
+
+.sec5-slidecontainer button{
+    position: absolute ;
+    width: 300px;
+    transition: 0.2s;
+    height: 376px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-bottom: 2rem;
+}
+
+
+.sec5-slidecontainer button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+#sliderA:target ~ .sec5img-containerA #imgA
+#sliderA:target ~ .sec5img-containerA #buttonA{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderB:target ~ .sec5img-containerA #imgB
+#sliderB:target ~ .sec5img-containerA #buttonB{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderC:target ~ .sec5img-containerA #imgC
+#sliderC:target ~ .sec5img-containerA #buttonC{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderD:target ~ .sec5img-containerA #imgE
+#sliderD:target ~ .sec5img-containerA #buttonE{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderF:target ~ .sec5img-containerA #imgF
+#sliderF:target ~ .sec5img-containerA #buttonF{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+
+#sliderG:target ~ .sec5img-containerA #imgG
+#sliderG:target ~ .sec5img-containerA #buttonG{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderH:target ~ .sec5img-containerA #imgH
+#sliderH:target ~ .sec5img-containerA #buttonH{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+
+#sliderA:target ~ .sec5img-containerA{
+    left: 60%;
+}
+
+#sliderB:target ~ .sec5img-containerA{
+    left: 40%;
+}
+
+#sliderC:target ~ .sec5img-containerA{
+    left: 20%;
+}
+
+#sliderD:target ~ .sec5img-containerA{
+    left: 0%;
+}
+
+#sliderE:target ~ .sec5img-containerA{
+    left: -20%;
+}
+
+#sliderF:target ~ .sec5img-containerA{
+    left: -40%;
+}
+
+#sliderG:target ~ .sec5img-containerA{
+    left: -60%;
+}
+
+#sliderH:target ~ .sec5img-containerA{
+    left: -80%;
+}
+
+.sec6-container{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    background-color: #0a0314;
+    padding-bottom: 4rem;
+}

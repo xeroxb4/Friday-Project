@@ -1,0 +1,511 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.backgrnd {
+    background-color: #1A2130;
+    padding: 3rem;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    background-size: cover;
+    padding-bottom: 1rem;
+   
+
+}
+
+.bloglist {
+    display: flex;
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    gap: 2rem;
+    list-style: none;
+    align-self: flex-end;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+
+.bloglist a {
+    color: #ece6e5;
+}
+
+.bloglist button {
+    background-color: transparent;
+    border-radius: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5px;
+    background-color: #A30D3F;
+    border: none;
+    font-weight: 700;
+}
+
+.bloglist button:hover {
+    background-color: rgb(6, 83, 41);
+    motion: auto;
+}
+
+.sec1 {
+    background-image: url(../img/dark-black-panther-7680x4320.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.sec1logo {
+    padding: 20px 10px;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 3rem;
+    margin-left: 6.5rem;
+    margin-right: 2rem;
+    letter-spacing: 3px;
+    gap: 2rem;
+}
+
+ul li {
+    display: block;
+    color: #A30D3F;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+ul li a {
+    color: #f3f3f3;
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.search-bar {
+    padding-top: 10rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 5px;
+    text-align: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: transparent;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    color: white;
+    font-size: 15px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FC4100;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.search-bar button:hover {
+    background-color: #2D9596;
+}
+
+.sec1img {
+    margin-top: -16rem;
+    margin-left: 90px;
+    border-radius: 8px;
+    
+}
+
+.sec1txt {
+    line-height: 25px;
+    padding-top: 3rem;
+    letter-spacing: 5px;
+
+}
+
+.sec1txt h1 a {
+    align-items: flex-start;
+    padding-top: 1rem;
+    margin-left: 100px;
+    margin-bottom: 1rem;
+    color: rgb(223, 9, 9);
+
+}
+
+.sec1txt h3 {
+    margin-left: 40%;
+    color: white;
+    font-size: 13px;
+    font-family: verdana;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    width: 500px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    margin-top: -1rem;
+}
+
+.sec1txt button{
+    margin-left: 50%;
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a70c0c;
+    font-weight: 800;
+    font-family: verdana;
+}
+
+.sec1buttxt a{
+    color: white;
+}
+
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .sec2-container{
+    background-color: #1A2130;
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    padding: 3rem 3rem;
+  }
+  
+  .video video {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  .sec3-container{
+    background-color: #1E1E1E;
+    padding-left: rem;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.img-container{
+    display: flex;
+    padding-top: 3.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    transition: 2s;
+    
+}
+
+
+.slider_div{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+  
+img{
+    position: relative;
+    transition: 0.1s;
+    border-radius: 20px;
+}
+
+.button{
+    position: absolute ;
+    width: 300px;
+    transition: 0.2s;
+    height: 376px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-bottom: 2rem;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+#slider1:target ~ .img-container #img1
+#slider1:target ~ .img-container #button1{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider2:target ~ .img-container #img2
+#slider2:target ~ .img-container #button2{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider3:target ~ .img-container #img3
+#slider3:target ~ .img-container #button3{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider4:target ~ .img-container #img4
+#slider4:target ~ .img-container #button4{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider5:target ~ .img-container #img5
+#slider5:target ~ .img-container #button5{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+
+#slider6:target ~ .img-container #img6
+#slider6:target ~ .img-container #button6{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider7:target ~ .img-container #img7
+#slider7:target ~ .img-container #button7{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#slider1:target ~ .img-container{
+    left: 60%;
+}
+
+#slider2:target ~ .img-container{
+    left: 40%;
+}
+
+#slider3:target ~ .img-container{
+    left: 20%;
+}
+
+#slider4:target ~ .img-container{
+    left: 0%;
+}
+
+#slider5:target ~ .img-container{
+    left: -20%;
+}
+
+#slider6:target ~ .img-container{
+    left: -40%;
+}
+
+#slider7:target ~ .img-container{
+    left: -60%;
+}
+
+.sec4-container{
+    background-color: #0a0314;
+    padding: 3rem 5rem;
+    
+}
+
+.sec4A-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+    padding-bottom: 8rem;
+}
+
+.sec4B-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.sec5-slidecontainer{
+    background-color: #1E1E1E;
+    padding-left: rem;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.sec5img-containerA{
+    display: flex;
+    padding-top: 3.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    transition: 2s;
+    padding-bottom: 4rem;
+}
+
+.sec5slider_div{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+.sec5-slidecontainer img{
+    position: relative;
+    transition: 0.1s;
+    border-radius: 20px;
+}
+
+.sec5-slidecontainer button{
+    position: absolute ;
+    width: 300px;
+    transition: 0.2s;
+    height: 376px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-bottom: 2rem;
+}
+
+
+.sec5-slidecontainer button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+#sliderA:target ~ .sec5img-containerA #imgA
+#sliderA:target ~ .sec5img-containerA #buttonA{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderB:target ~ .sec5img-containerA #imgB
+#sliderB:target ~ .sec5img-containerA #buttonB{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderC:target ~ .sec5img-containerA #imgC
+#sliderC:target ~ .sec5img-containerA #buttonC{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderD:target ~ .sec5img-containerA #imgE
+#sliderD:target ~ .sec5img-containerA #buttonE{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderF:target ~ .sec5img-containerA #imgF
+#sliderF:target ~ .sec5img-containerA #buttonF{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+
+#sliderG:target ~ .sec5img-containerA #imgG
+#sliderG:target ~ .sec5img-containerA #buttonG{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+#sliderH:target ~ .sec5img-containerA #imgH
+#sliderH:target ~ .sec5img-containerA #buttonH{
+    width: 200px;
+    height: 800px;
+    background-color: transparent;
+}
+
+
+#sliderA:target ~ .sec5img-containerA{
+    left: 60%;
+}
+
+#sliderB:target ~ .sec5img-containerA{
+    left: 40%;
+}
+
+#sliderC:target ~ .sec5img-containerA{
+    left: 20%;
+}
+
+#sliderD:target ~ .sec5img-containerA{
+    left: 0%;
+}
+
+#sliderE:target ~ .sec5img-containerA{
+    left: -20%;
+}
+
+#sliderF:target ~ .sec5img-containerA{
+    left: -40%;
+}
+
+#sliderG:target ~ .sec5img-containerA{
+    left: -60%;
+}
+
+#sliderH:target ~ .sec5img-containerA{
+    left: -80%;
+}
+
+.sec6-container{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    background-color: #0a0314;
+    padding-bottom: 4rem;
+}
