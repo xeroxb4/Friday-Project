@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +5,7 @@
     list-style: none;
     box-sizing: border-box;
     overflow-x: hidden;
+
 }
 
 .backgrnd {
@@ -15,7 +15,7 @@
     padding-top: 1rem;
     background-size: cover;
     padding-bottom: 1rem;
-   
+
 
 }
 
@@ -46,6 +46,7 @@
     background-color: #A30D3F;
     border: none;
     font-weight: 700;
+    padding-top: 3px;
 }
 
 .bloglist button:hover {
@@ -54,11 +55,12 @@
 }
 
 .sec1 {
-    background-image: url(../img/dark-black-panther-7680x4320.jpg);
+    background-image: url(../img/imgz/empty-street-dark-atmosphere_23-2150914358.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    
 }
 
 .sec1logo {
@@ -85,7 +87,6 @@ ul li {
     color: #A30D3F;
     text-align: center;
     padding: 14px 16px;
-
 }
 
 ul li a {
@@ -99,6 +100,7 @@ ul li a {
     padding-top: 6rem;
     text-align: center;
     border-radius: 6px;
+    border: none;
 }
 
 .search-bar input[type="text"] {
@@ -113,6 +115,7 @@ ul li a {
     padding-bottom: 7px;
     color: white;
     font-size: 15px;
+    margin-top: 7rem;
 }
 
 .search-bar button {
@@ -133,7 +136,7 @@ ul li a {
     margin-top: -16rem;
     margin-left: 90px;
     border-radius: 8px;
-    
+
 }
 
 .sec1txt {
@@ -168,7 +171,7 @@ ul li a {
     margin-top: -1rem;
 }
 
-.sec1txt button{
+.sec1txt button {
     margin-left: 50%;
     margin-top: 1rem;
     padding-left: 10px;
@@ -182,330 +185,235 @@ ul li a {
     font-family: verdana;
 }
 
-.sec1buttxt a{
+.sec1buttxt a {
     color: white;
 }
 
-
-.background {
+.sec2 {
+    background-image: url(../img/imgz/glass\ 2.jpg);
+    
+    display: flex;
+    object-fit: fill;
+    /* justify-content: center; */
     position: relative;
-    width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-size: cover;
-    background-position: center;
-  }
-  
-  .sec2-container{
-    background-color: #1A2130;
-  }
-  
-  .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80%;
-    overflow: hidden;
-    padding: 3rem 3rem;
-  }
-  
-  .video video {
-    width: 60%;
-    height: 100%;
-    object-fit: cover;
-  }
- 
-  .sec3-container{
-    background-color: #1E1E1E;
-    padding-left: rem;
-    width: 100%;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    
 }
-  
-.img-container{
+
+.sec2 video {
+    padding-top: 2rem;
+    margin-left: 5%;
+    border-radius: 23px;
+    margin-bottom: 1rem;
+
+}
+
+.sec2vid-h1-container h1 {
+    word-spacing: 33px;
+    padding-top: 18px;
+    margin-left: 5%;
+}
+
+.sec2vid-h1-container h1 a {
+    color: aqua;
+}
+
+#img1 {
+    float: right;
+    margin-top: 2rem;
+    padding-right: 12%;
+
+}
+
+#img1 h3 a {
+    margin-top: 3px;
+    color: rgb(243, 238, 238);
+    text-decoration: underline;
+    letter-spacing: 2px;
+
+}
+
+.sec3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/purple-dew-abstract-watery-morning-background_23-2148290208.jpg);
+}
+
+
+#text-1 {
     display: flex;
-    padding-top: 3.5rem;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.sec3 h2 a {
+    color: red;
+}
+
+
+.sec3-3img-container {
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: absolute;
-    transition: 2s;
-    
+    gap: 3rem;
+    margin-bottom: 3rem;
+
 }
 
 
-.slider_div{
+
+#secimg-1 {}
+
+#secimg-1 a {
+    color: red;
+    margin-left: 93px;
+
+}
+
+#secimg-2 {}
+
+#secimg-2 a {
+    color: red;
+    margin-left: 53px;
+
+}
+
+#secimg-3 {}
+
+#secimg-3 a {
+    color: red;
+    margin-left: 73px;
+
+}
+
+.sec4 {
+    background-image: url(../img/purple-dew-abstract-watery-morning-background_23-2148290208.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#text-1 {
     display: flex;
-    justify-content:flex-start ;
-    align-items: center;
-    margin: 0 20px 0 20px;
-}
-  
-img{
-    position: relative;
-    transition: 0.1s;
-    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    text-decoration: underline;
 }
 
-.button{
-    position: absolute ;
-    width: 300px;
-    transition: 0.2s;
-    height: 376px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    padding-bottom: 2rem;
+.sec4 h3 a {
+    color: rgb(255, 255, 255);
 }
 
-.button:hover{
-    background-color: rgba(0, 0, 0, 0.2);
+.sec4-3img-container {
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 3rem;
+
 }
 
-
-#slider1:target ~ .img-container #img1
-#slider1:target ~ .img-container #button1{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
+.sec5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/dark\ ai\ 1.jpg);
 }
 
-#slider2:target ~ .img-container #img2
-#slider2:target ~ .img-container #button2{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#slider3:target ~ .img-container #img3
-#slider3:target ~ .img-container #button3{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#slider4:target ~ .img-container #img4
-#slider4:target ~ .img-container #button4{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#slider5:target ~ .img-container #img5
-#slider5:target ~ .img-container #button5{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-
-#slider6:target ~ .img-container #img6
-#slider6:target ~ .img-container #button6{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#slider7:target ~ .img-container #img7
-#slider7:target ~ .img-container #button7{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#slider1:target ~ .img-container{
-    left: 60%;
-}
-
-#slider2:target ~ .img-container{
-    left: 40%;
-}
-
-#slider3:target ~ .img-container{
-    left: 20%;
-}
-
-#slider4:target ~ .img-container{
-    left: 0%;
-}
-
-#slider5:target ~ .img-container{
-    left: -20%;
-}
-
-#slider6:target ~ .img-container{
-    left: -40%;
-}
-
-#slider7:target ~ .img-container{
-    left: -60%;
-}
-
-.sec4-container{
-    background-color: #0a0314;
+.sec5-container {
+    /* background-color: #0a0314; */
     padding: 3rem 5rem;
-    
+
 }
 
-.sec4A-content{
+.sec5vid-h1-container h1{
+    word-spacing: 6px;
+    padding-top: 25px;
+    margin-left: 11%;
+    padding-bottom: 12px;
+}
+
+.sec5vid-h1-container h1 a{
+    color: aqua;
+}
+
+
+.sec5A-content {
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 3rem;
-    padding-bottom: 8rem;
+    padding-bottom: 3rem;
 }
 
-.sec4B-content{
+.sec5A-content a{
+    color: red;
+}
+
+.sec5B-content {
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 3rem;
+    padding-bottom: 3rem;
 }
 
-.sec5-slidecontainer{
-    background-color: #1E1E1E;
-    padding-left: rem;
-    width: 100%;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-
+.sec5B-content a{
+    color: red;
     
 }
 
-.sec5img-containerA{
-    display: flex;
-    padding-top: 3.5rem;
-    flex-direction: row;
-    align-items: center;
+
+.sec6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/dark\ ai\ 1.jpg);
+}
+
+.sec6 h2 a {
+    color: rgb(226, 3, 3);
+}
+
+.sec6 h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 3%;
+}
+
+.sec6 h1 a{
+    color: aqua;
+}
+
+.sec6-3img-container {
+    margin-top: 2rem;
     justify-content: center;
-    overflow: hidden;
-    position: absolute;
-    transition: 2s;
-    padding-bottom: 4rem;
-}
-
-.sec5slider_div{
-    display: flex;
-    justify-content:flex-start ;
-    align-items: center;
-    margin: 0 20px 0 20px;
-}
-
-.sec5-slidecontainer img{
-    position: relative;
-    transition: 0.1s;
-    border-radius: 20px;
-}
-
-.sec5-slidecontainer button{
-    position: absolute ;
-    width: 300px;
-    transition: 0.2s;
-    height: 376px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    padding-bottom: 2rem;
-}
-
-
-.sec5-slidecontainer button:hover{
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-
-#sliderA:target ~ .sec5img-containerA #imgA
-#sliderA:target ~ .sec5img-containerA #buttonA{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#sliderB:target ~ .sec5img-containerA #imgB
-#sliderB:target ~ .sec5img-containerA #buttonB{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#sliderC:target ~ .sec5img-containerA #imgC
-#sliderC:target ~ .sec5img-containerA #buttonC{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#sliderD:target ~ .sec5img-containerA #imgE
-#sliderD:target ~ .sec5img-containerA #buttonE{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#sliderF:target ~ .sec5img-containerA #imgF
-#sliderF:target ~ .sec5img-containerA #buttonF{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-
-#sliderG:target ~ .sec5img-containerA #imgG
-#sliderG:target ~ .sec5img-containerA #buttonG{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-#sliderH:target ~ .sec5img-containerA #imgH
-#sliderH:target ~ .sec5img-containerA #buttonH{
-    width: 200px;
-    height: 800px;
-    background-color: transparent;
-}
-
-
-#sliderA:target ~ .sec5img-containerA{
-    left: 60%;
-}
-
-#sliderB:target ~ .sec5img-containerA{
-    left: 40%;
-}
-
-#sliderC:target ~ .sec5img-containerA{
-    left: 20%;
-}
-
-#sliderD:target ~ .sec5img-containerA{
-    left: 0%;
-}
-
-#sliderE:target ~ .sec5img-containerA{
-    left: -20%;
-}
-
-#sliderF:target ~ .sec5img-containerA{
-    left: -40%;
-}
-
-#sliderG:target ~ .sec5img-containerA{
-    left: -60%;
-}
-
-#sliderH:target ~ .sec5img-containerA{
-    left: -80%;
-}
-
-.sec6-container{
-    padding-top: 5rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 5rem;
-    background-color: #0a0314;
-    padding-bottom: 4rem;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+#secimg-2{
+    border-radius: 25px ;
+    
+}
+
+#secimg-1{
+    border-radius: 25px ;
+    
+}
+
+#secimg-1a{
+    border-radius: 25px ;
+    font-size: 15px;
+    padding-left: 19px;
+}
+
+#secimg-3{
+    border-radius: 25px ;
+    
 }
